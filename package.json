@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/css-modules/webpack-demo"
+    "url": "https://github.com/blia/webpack-demo"
   },
   "author": "Mark Dalgleish",
   "license": "MIT",
@@ -39,5 +39,8 @@
     "url-loader": "^0.5.6",
     "webpack": "^1.9.10",
     "webpack-dev-server": "^1.9.0"
+  },
+  "dependencies": {
+    "classnames": "github:blia/classnames"
   }
 }

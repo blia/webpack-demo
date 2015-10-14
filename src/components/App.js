@@ -8,6 +8,7 @@ import GlobalSelectorsDemo from './2-GlobalSelectors/GlobalSelectorsDemo';
 import ClassCompositionDemo from './3-ClassComposition/ClassCompositionDemo';
 import CompositionOverridesDemo from './4-CompositionOverrides/CompositionOverridesDemo';
 import ScopedAnimationsDemo from './5-ScopedAnimations/ScopedAnimationsDemo';
+import PowerOfClassNamesDemo from './6-PowerOfClassNames/PowerOfClassNamesDemo';
 
 export default class App extends Component {
 
@@ -52,6 +53,11 @@ export default class App extends Component {
         <p>CSS Modules even provide <strong>locally scoped animations</strong>, which are typically defined in the global scope.</p>
         <p>The animation's keyframes are private to the animations module, only exposed publicly via a class which this component inherits from.</p>
         <ScopedAnimationsDemo />
+
+        <h2>Power of classNames</h2>
+        <p>Working with <code>classnames</code></p>
+        <p>Usage - <a href="https://github.com/JedWatson/classnames">https://github.com/JedWatson/classnames</a></p>
+        <PowerOfClassNamesDemo />
 
       </div>
     );
